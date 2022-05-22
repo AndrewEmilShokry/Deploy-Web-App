@@ -3,7 +3,7 @@
 
 
 
-#First Install Nginx on your device by this command  "sudo apt-get install nginx"
+First Install Nginx on your device by this command  "sudo apt-get install nginx"
 
 
 
