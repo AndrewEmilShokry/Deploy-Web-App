@@ -1,0 +1,61 @@
+height: 100px
+width: 100px
+
+background: orange; 
+background-size: contain;           // at7km fe 7gm el sora el tb3y
+background-repeat: no-repeat;
+background-repeat: repeat-x;         //x-axis
+background-attachment: fixed;       // 3shn el sora tnzl w tetl3 m3ya 
+background-position: center top;   // pic position
+
+border: black 10px soild;          // frame el shakl aw border
+
+
+font-family: Arial, helvetica       // shakl el klma
+font-size: 10px;                   // 7agm el klma
+font-weight: lighter;             //el fro2at ben el 7rof
+
+line-height: 20px;                // el bo3d ben el klam
+letter-spacing: 10px;            // el bo3d ben el 7rof
+
+
+text-align: center;              // 3yz el klam fe nos same as left or right
+direction: rtl;                 // btet7m fe etgah el klam
+
+padding: 10px                  //from inside in all directions ez7at el klam
+padding: 10px 20px             // top right bottom left
+padding-left: 10px;            // ez7at el klam left 10px
+
+margin: 10px;                   //ez7a from outside in all directions
+margin: auto;
+margin-right: auto;
+*{
+  padding: 0;
+  margin: 0;
+}                         // important 3shn tzbot due to browsers error
+
+
+text-decoration: none;    // 3shn tms7 el line t7t el link
+
+a:hover{
+    color: blue; 
+     font-size: 20px;
+}                          //btetb2 lma el mouse y2of 3leha
+
+
+display: inline-block;
+display: none;                // a5fteha
+visibility: hidden            // a5ftha bs mknha mwgod
+
+
+overflow: auto;            // scroll le ay 7aga mwgoda
+overflow: scroll: 
+
+list-style-type: decimal;     // byrkm el ul lma byrtbhom
+list-style-position: inside;  
+list-style-image: url("")     //tkon so9yra
+list-style: square inside;    // all in 1
+
+
+float: left;           //hyktbhom gnb b3d
+

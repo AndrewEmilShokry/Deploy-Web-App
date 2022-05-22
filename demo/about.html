@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University Website Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+           <nav>
+             <a href="index.html"><img src="andrew.png"></a>
+               <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                  <ul>
+                    <li><a href="index.html">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                     <li><a href="course.html">COURSE</a></li>
+                     <li><a href="Blog.html">BLOG</a></li>
+                     <li><a href="Contact.html">CONTACT</a></li>
+                   </ul>
+               </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+           </nav>
+            <h1>About me</h1>
+        </section>
+        
+        <!------- about me content ---------->
+        <section class="about-us">
+            <div class="about-col">
+                <h1>we are sdfjkalsdlajsd</h1>
+                <p>asdhjkasjhdkashdkjasdjkas</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+              <img src="about.jpg">
+            </div>
+        </section>
+        
+        
+        <!------------- Footer-------->
+        <section class="footer">
+            <h4>About Me</h4>
+            <p>I'm Andrew Emil <br> I'm from Egypt <br> I was born in 1997</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made With <i class="fa fa-heart-o"></i> Easy</p>
+        </section>
+        
+        
+        
+        
+        
+        <!----------------- JavaScript for menu -------------------->
+        <script>
+           var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University Website Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+           <nav>
+             <a href="index.html"><img src="andrew.png"></a>
+               <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                  <ul>
+                    <li><a href="index.html">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                     <li><a href="course.html">COURSE</a></li>
+                     <li><a href="Blog.html">BLOG</a></li>
+                     <li><a href="Contact.html">CONTACT</a></li>
+                   </ul>
+               </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+           </nav>
+            <h1>Our Courses</h1>
+        </section>
+        
+        <!--------------------- Course --------->
+        <section class="course">
+            <h1>Courses We Offer</h1> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim euismod quam vitae ornare. Pellentesque ante nunc, fringilla in justo finibus, viverra scelerisque leo. Nunc in commodo odio,<br> in tempus velit. Donec bibendum enim et libero maximus, at blandit felis rutrum. Donec ullamcorper et tellus sed rutrum. In velit erat, dignissim at est ac, porttitor condimentum nulla. Vivamus eget nisi imperdiet, scelerisque nibh eget, interdum mauris. Curabitur et finibus mauris</p>
+         <div class="row">
+           <div class="course-col">
+              <h3>intermediate</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim euismod quam vitae ornare. Pellentesque ante nunc, fringilla in justo finibus,  finibus mauris</p>
+           </div>
+           <div class="course-col">
+                 <h3>degree</h3>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim euismod quam vitae ornare</p>
+           </div>
+         </div>
+        </section>
+        
+        <!---------------- Facilities ---------------->
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim euismod quam vitae ornare</p>
+            
+            <div class="row">
+                <div class="facilities-col">
+                 <img src="library.png">
+                    <h3>World Clas Library</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim euismod quam vitae ornare</p>
+                </div>
+                <div class="facilities-col">
+                 <img src="basketball.png">
+                    <h3>Largest play ground</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim euismod quam vitae ornare</p>
+                </div>
+                <div class="facilities-col">
+                 <img src="cafeteria.png">
+                    <h3>Tasty and Healty Food</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim euismod quam vitae ornare</p>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <!------------- Footer-------->
+        <section class="footer">
+            <h4>About Me</h4>
+            <p>I'm Andrew Emil <br> I'm from Egypt <br> I was born in 1997</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made With <i class="fa fa-heart-o"></i> Easy</p>
+        </section>
+        
+        
+        
+        
+        
+        <!----------------- JavaScript for menu -------------------->
+        <script>
+           var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University Website Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+           <nav>
+             <a href="index.html"><img src="andrew.png"></a>
+               <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                  <ul>
+                    <li><a href="index.html">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                     <li><a href="course.html">COURSE</a></li>
+                     <li><a href="Blog.html">BLOG</a></li>
+                     <li><a href="Contact.html">CONTACT</a></li>
+                   </ul>
+               </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+           </nav>
+            <h1>Contact Us</h1>
+        </section>
+        
+  <!------------------ Contact us----------->
+        <section class="location">
+            
+        </section> 
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>XYZ Road, ABD building</h5>
+                            <p>Cairo, Egypt</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+0 1555115180</h5>
+                            <p>CMonday to saturday</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>info@easyPeasyLemonSquezzeee</h5>
+                            <p>wanna drink ?</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form action="form-handler.php" method="post">
+                        <input type="text" name="name" placeholder="Enter Your name" required>
+                        <input type="email" name="email" placeholder="Enter Email address" required>
+                        <input type="text" name="subject" placeholder="Enter Your subject" required>
+                        <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                        
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        
+   <!------------- Footer-------->
+        <section class="footer">
+            <h4>About Me</h4>
+            <p>I'm Andrew Emil <br> I'm from Egypt <br> I was born in 1997</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made With <i class="fa fa-heart-o"></i> Easy</p>
+        </section>
+        
+        
+        
+        
+        
+        <!----------------- JavaScript for menu -------------------->
+        <script>
+           var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
